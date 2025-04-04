@@ -26,4 +26,4 @@ jobs:
 
       - name: Run Locust tests
         run: |
-          locust -f locustfile.py --headless -u 10 -r 2 --host=http://localhost:5000
+          locust -f locustfile.py --headless -u 10 -r 2 --host=http://localhost:8080
